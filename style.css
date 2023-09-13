@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: Arial;
 }
 
 .container {
@@ -20,7 +21,9 @@
 
 .navbar li {
     display: inline;
-    padding: 2px;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .navbar a {
@@ -29,7 +32,7 @@
 }
 
 .navbar a:hover {
-    color: orange;
+    color: darkorange;
 }
 
 .introduction {
@@ -46,20 +49,26 @@
 }
 
 .introduction h1 {
-    font-size: 75px;
+    font-size: 100px;
 }
 
-.introduction p {
-    font-size: larger;
-    padding: 10px 400px;
-    line-height: 30px;
+.introduction p{
+    font-size: 25px;
+    padding: 10px 300px;
+    line-height: 40px;
+    font-family: "Times New Roman";
+}
+
+.introduction b {
+    font-family: "Times New Roman";
+    font-size: 25px;
 }
 
 .introduction a {
     color: white;
     padding: 12px;
     margin-top: 32px;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .about {
